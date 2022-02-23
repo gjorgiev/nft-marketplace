@@ -55,7 +55,7 @@ export default function MyAssets() {
                     {
                         nfts.map((nft, i) => (
                             <div key={i} className="border shadow rounded-xl overflow-hidden">
-                                <img src={nft.image} className="rounded" />
+                                <Image src={nft.image} className="rounded" width={350} height={500}/>
                                 <div className='p-4 bg-black'>
                                     <p className='text-2xl font-bold text-white'>Price - {nft.price} Matic</p>
                                 </div>
