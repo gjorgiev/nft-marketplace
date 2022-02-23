@@ -104,7 +104,7 @@ export default function CreateItem(){
                 />
                 {
                     fileUrl && (
-                        <Image className='rounded mt-4' width="350" src={fileUrl} />
+                        <Image className='rounded mt-4' width="350" src={fileUrl} alt='NFT image'/>
                     )
                 }
                 <button 
